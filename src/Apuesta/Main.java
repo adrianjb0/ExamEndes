@@ -6,10 +6,10 @@ public class Main {
         Apuesta laApuesta;
         int mi_dinero;
 
-        laApuesta = new Apuesta(1000, 4, 2);
+        laApuesta = new Apuesta(1500, 4, 2);
 
       
-        mi_dinero = operativa_Apuesta(laApuesta, 25);  
+        mi_dinero = operativa_Apuesta(laApuesta, 205);  
 
         System.out.println("El dinero que tengo tras las apuestas es " + mi_dinero);
     }
